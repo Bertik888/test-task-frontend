@@ -2,7 +2,7 @@
   <div class="column">
     <thing 
       v-for="(item, idx) in items"
-      :key="items.id"
+      :key="item.id"
       :name="item.name"
       :class="{
         'm-b': idx + 1 < items.length,
